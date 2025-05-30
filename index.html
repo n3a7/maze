@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>？？？？</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>1F</h1>
+  <div class="header">
+    <div class="topimage">
+      <img src="https://" alt="" class="layer-img">
+    </div>
+  <div id="controls">
+    <button onclick="movePlayer(0, -1)">↖</button><br>
+    <button onclick="movePlayer(-1, 0)">↙</button>
+    <button onclick="movePlayer(1, 0)">↗</button><br>
+    <button onclick="movePlayer(0, 1)">↘</button>
+  </div>
+
+  <div id="lampPanel">
+    <div id="lampIndicator" class="lamp-circle" ></div>
+    <div id="wallLamp" class="lamp-circle"></div>
+  </div>
+  <img id="special-image" src="treasure.jpg" style="display:none; position:fixed; top:70%; left:50%; transform:translate(-50%, -50%);" />
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
