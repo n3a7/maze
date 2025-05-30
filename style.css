@@ -6,7 +6,7 @@ body {
 #controls {
   display: flex;
   gap: 40px;
-  margin-top: 20px;
+  margin-top: 10px;
   align-items: center;
   justify-content: center;
 }
@@ -14,7 +14,7 @@ body {
 #controls button {
   width: 60px;
   height: 60px;
-  font-size: 50px;
+  font-size: 40px;
   margin: 5px;
   transform: rotate(45deg);
   cursor: pointer;
