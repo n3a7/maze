@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#controls {
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+#controls button {
+  width: 100px;
+  height: 100px;
+  font-size: 64px;
+  margin: 5px;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+#lampPanel {
+  display: inline-flex;
+  gap: 50px;
+  margin-top: 40px;
+}
+
+.lamp-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: gray; /* 初期状態 */
+  transition: background-color 0.3s;
+}
+
+.lamp-red {
+  background-color: red;
+}
+
+.lamp-yellow {
+  background-color: yellow;
+}
